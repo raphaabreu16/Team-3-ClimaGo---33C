@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Climago</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="topo">
+            <div>
+                <h2>Assistente Climago</h2>
+                <p>Seu guia pessoal do clima</p>
+            </div>
+
+            <button class="fechar">X</button>
+        </div>
+
+        <div class="conteudo">
+
+            <div class="icone">
+                ☁️
+            </div>
+
+            <h1>Olá! Sou o assistente Climago 👋</h1>
+
+            <p class="descricao">
+                Pergunte sobre o clima, planeje atividades
+                ou peça recomendações para os próximos dias.
+            </p>
+
+            <div class="perguntas">
+
+                <button>
+                    Posso fazer um churrasco no sábado?
+                </button>
+
+                <button>
+                    Qual o melhor dia para correr?
+                </button>
+
+                <button>
+                    Vai chover na terça?
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="chat">
+
+            <input type="text" placeholder="Pergunte sobre o clima...">
+
+            <button class="enviar">
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
