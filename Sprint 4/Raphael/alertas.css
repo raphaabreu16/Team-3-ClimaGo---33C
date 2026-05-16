@@ -1,0 +1,55 @@
+body {
+    background-color: #f4f6fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagina-toda {
+    max-width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.texto-cinza {
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.card-alerta {
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.caixinha-icone {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cor-chuva { background-color: #dbeafe; color: #3b82f6; }
+.cor-vento { background-color: #e5e7eb; color: #4b5563; }
+.cor-calor { background-color: #fef3c7; color: #f59e0b; }
+.cor-frio  { background-color: #ede9fe; color: #7c3aed; }
+
+.titulo-alerta {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 4px;
+}
+
+.descricao-alerta {
+    font-size: 13px;
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+.hora-alerta {
+    font-size: 11px;
+    color: #9ca3af;
+}

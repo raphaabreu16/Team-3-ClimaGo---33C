@@ -1,0 +1,127 @@
+body {
+    background-color: #f4f6fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagina-toda {
+    max-width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.texto-cinza {
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.card-evento {
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid transparent;
+}
+
+.borda-seguro  { border-left-color: #22c55e; }
+.borda-atencao { border-left-color: #f59e0b; }
+.borda-perigo  { border-left-color: #ef4444; }
+
+.icone-tempo {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-sol     { background-color: #fef9c3; color: #ca8a04; }
+.icone-chuva   { background-color: #dbeafe; color: #3b82f6; }
+.icone-nublado { background-color: #f3f4f6; color: #6b7280; }
+
+.nome-evento {
+    font-size: 15px;
+    font-weight: 600;
+    color: #111;
+}
+
+.info-evento {
+    font-size: 11px;
+    color: #9ca3af;
+}
+
+.dados-clima {
+    font-size: 12px;
+    color: #374151;
+    font-weight: 500;
+}
+
+.badge-status {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 99px;
+}
+
+.badge-seguro  { background-color: #dcfce7; color: #16a34a; }
+.badge-atencao { background-color: #fef9c3; color: #b45309; }
+.badge-perigo  { background-color: #fee2e2; color: #dc2626; }
+
+.compatibilidade {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.texto-seguro  { color: #16a34a; }
+.texto-atencao { color: #b45309; }
+.texto-perigo  { color: #dc2626; }
+
+.sugestao {
+    font-size: 11px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.fundo-seguro  { background-color: #dcfce7; }
+.fundo-atencao { background-color: #fef9c3; }
+.fundo-perigo  { background-color: #fee2e2; }
+
+.label-campo {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.campo-input {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+    font-size: 14px;
+    padding: 10px 14px;
+    outline: none;
+}
+
+.campo-input:focus {
+    border-color: #38bdf8;
+    background-color: white;
+}
+
+.btn-salvar {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: #38bdf8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+    cursor: pointer;
+}

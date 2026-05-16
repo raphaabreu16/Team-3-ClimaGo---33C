@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="pagina-toda">
+
+        <div class="px-3 mb-4">
+            <h1 class="fw-bold">Eventos</h1>
+            <p class="texto-cinza">5 eventos planejados</p>
+        </div>
+
+        <div class="px-3 d-flex flex-column gap-3">
+
+            <div class="card-evento borda-perigo">
+                <div class="d-flex gap-3">
+                    <div class="icone-tempo icone-chuva">
+                        <i class="bi bi-cloud-rain fs-4"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                            <div class="nome-evento">Trilha Serra da Mantiqueira</div>
+                            <span class="badge-status badge-perigo">Risco</span>
+                        </div>
+                        <div class="info-evento mt-1">
+                            <i class="bi bi-calendar3"></i> Ter, 8 Abr · 07:00
+                        </div>
+                        <div class="info-evento">
+                            <i class="bi bi-geo-alt"></i> Campos do Jordão, SP
+                        </div>
+                        <div class="dados-clima mt-1">
+                            <i class="bi bi-thermometer-half"></i> 18°C &nbsp;
+                            <i class="bi bi-cloud-rain"></i> 70% chuva
+                        </div>
+                        <div class="compatibilidade texto-perigo mt-2">
+                            ☀️ Baixa — previsão de chuva
+                        </div>
+                        <div class="sugestao fundo-perigo mt-2">
+                            <i class="bi bi-umbrella"></i>
+                            Considere remarcar para Qui, 10 Abr
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-evento borda-atencao">
+                <div class="d-flex gap-3">
+                    <div class="icone-tempo icone-nublado">
+                        <i class="bi bi-cloud fs-4"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                            <div class="nome-evento">Reunião ao ar livre</div>
+                            <span class="badge-status badge-atencao">Atenção</span>
+                        </div>
+                        <div class="info-evento mt-1">
+                            <i class="bi bi-calendar3"></i> Qua, 9 Abr · 14:00
+                        </div>
+                        <div class="info-evento">
+                            <i class="bi bi-geo-alt"></i> Parque Ibirapuera, SP
+                        </div>
+                        <div class="dados-clima mt-1">
+                            <i class="bi bi-thermometer-half"></i> 23°C &nbsp;
+                            <i class="bi bi-cloud-rain"></i> 55% chuva
+                        </div>
+                        <div class="compatibilidade texto-atencao mt-2">
+                            🌤️ Média — temperatura agradável mas instável
+                        </div>
+                        <div class="sugestao fundo-atencao mt-2">
+                            <i class="bi bi-umbrella"></i>
+                            Leve um guarda-chuva por precaução
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-evento borda-seguro">
+                <div class="d-flex gap-3">
+                    <div class="icone-tempo icone-sol">
+                        <i class="bi bi-sun fs-4"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                            <div class="nome-evento">Churrasco no sítio</div>
+                            <span class="badge-status badge-seguro">Seguro</span>
+                        </div>
+                        <div class="info-evento mt-1">
+                            <i class="bi bi-calendar3"></i> Sex, 11 Abr · 12:00
+                        </div>
+                        <div class="info-evento">
+                            <i class="bi bi-geo-alt"></i> Atibaia, SP
+                        </div>
+                        <div class="dados-clima mt-1">
+                            <i class="bi bi-thermometer-half"></i> 29°C &nbsp;
+                            <i class="bi bi-cloud-rain"></i> 10% chuva
+                        </div>
+                        <div class="compatibilidade texto-seguro mt-2">
+                            ☀️ Alta — sol e tempo aberto
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-evento borda-atencao">
+                <div class="d-flex gap-3">
+                    <div class="icone-tempo icone-nublado">
+                        <i class="bi bi-cloud-sun fs-4"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                            <div class="nome-evento">Casamento na praia</div>
+                            <span class="badge-status badge-atencao">Atenção</span>
+                        </div>
+                        <div class="info-evento mt-1">
+                            <i class="bi bi-calendar3"></i> Sáb, 19 Abr · 16:00
+                        </div>
+                        <div class="info-evento">
+                            <i class="bi bi-geo-alt"></i> Ubatuba, SP
+                        </div>
+                        <div class="dados-clima mt-1">
+                            <i class="bi bi-thermometer-half"></i> 27°C &nbsp;
+                            <i class="bi bi-cloud-rain"></i> 25% chuva
+                        </div>
+                        <div class="compatibilidade texto-atencao mt-2">
+                            🌤️ Média — parcialmente nublado
+                        </div>
+                        <div class="sugestao fundo-atencao mt-2">
+                            <i class="bi bi-umbrella"></i>
+                            Tenha um plano B para área coberta
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-evento borda-seguro">
+                <div class="d-flex gap-3">
+                    <div class="icone-tempo icone-sol">
+                        <i class="bi bi-sun fs-4"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                            <div class="nome-evento">Festival de música</div>
+                            <span class="badge-status badge-seguro">Seguro</span>
+                        </div>
+                        <div class="info-evento mt-1">
+                            <i class="bi bi-calendar3"></i> Dom, 27 Abr · 15:00
+                        </div>
+                        <div class="info-evento">
+                            <i class="bi bi-geo-alt"></i> São Paulo, SP
+                        </div>
+                        <div class="dados-clima mt-1">
+                            <i class="bi bi-thermometer-half"></i> 24°C &nbsp;
+                            <i class="bi bi-cloud-rain"></i> 15% chuva
+                        </div>
+                        <div class="compatibilidade texto-seguro mt-2">
+                            🌤️ Alta — clima ameno ideal
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
