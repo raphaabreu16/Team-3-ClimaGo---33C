@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f1f3f7;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topo{
+    width: 100%;
+    background: linear-gradient(to right, #1f8fff, #1693ff);
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+}
+
+.topo h2{
+    font-size: 20px;
+}
+
+.topo p{
+    font-size: 13px;
+}
+
+.fechar{
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.conteudo{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.icone{
+    width: 90px;
+    height: 90px;
+
+    background-color: #1f8fff;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+.conteudo h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.descricao{
+    color: gray;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.perguntas button{
+    width: 400px;
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: white;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.perguntas button:hover{
+    background-color: #e8f3ff;
+}
+
+.chat{
+    width: 100%;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.chat input{
+    width: 500px;
+    padding: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+.enviar{
+    width: 50px;
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #1f8fff;
+    color: white;
+
+    cursor: pointer;
+}
