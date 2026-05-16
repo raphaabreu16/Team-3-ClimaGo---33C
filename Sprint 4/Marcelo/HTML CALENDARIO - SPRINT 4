@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário Climático</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="titulo">
+
+            <h1>📅 Visão Mensal</h1>
+            <p>São Paulo, SP</p>
+
+        </div>
+
+        <div class="mes">
+
+            <button>◀</button>
+
+            <h2>Maio 2026</h2>
+
+            <button>▶</button>
+
+        </div>
+
+        <div class="calendario">
+
+            <div class="dias-semana">
+                <div>Dom</div>
+                <div>Seg</div>
+                <div>Ter</div>
+                <div>Qua</div>
+                <div>Qui</div>
+                <div>Sex</div>
+                <div>Sáb</div>
+            </div>
+
+            <div class="dias">
+
+                <div class="dia">
+                    <span>1</span>
+                    ☀️
+                    <p>27°</p>
+                </div>
+
+                <div class="dia">
+                    <span>2</span>
+                    ☀️
+                    <p>26°</p>
+                </div>
+
+                <div class="dia">
+                    <span>3</span>
+                    🌤️
+                    <p>24°</p>
+                </div>
+
+                <div class="dia">
+                    <span>4</span>
+                    ☁️
+                    <p>22°</p>
+                </div>
+
+                <div class="dia">
+                    <span>5</span>
+                    🌧️
+                    <p>19°</p>
+                </div>
+
+                <div class="dia">
+                    <span>6</span>
+                    ☁️
+                    <p>21°</p>
+                </div>
+
+                <div class="dia">
+                    <span>7</span>
+                    🌧️
+                    <p>18°</p>
+                </div>
+
+                <div class="dia">
+                    <span>8</span>
+                    ☀️
+                    <p>28°</p>
+                </div>
+
+                <div class="dia selecionado">
+                    <span>15</span>
+                    ☀️
+                    <p>28°</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="legenda">
+
+            <h3>Legenda</h3>
+
+            <div class="cores">
+
+                <div>
+                    <span class="verde"></span>
+                    Tempo bom
+                </div>
+
+                <div>
+                    <span class="amarelo"></span>
+                    Atenção
+                </div>
+
+                <div>
+                    <span class="vermelho"></span>
+                    Risco
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
